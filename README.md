@@ -23,7 +23,7 @@ Dependencies
 
 + gcc 5.3 (or other suitable C11 compiler)
 + CMake
-+ 
++ gcc or clang autovectorization ("-ftree-autovectorize")
 
 
 Building
