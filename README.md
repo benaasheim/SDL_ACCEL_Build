@@ -1,7 +1,7 @@
 # SDL_ACCEL_Build
 =========
 
-A front-end for performing tag-based file management on linux.
+A real-time raytracer for Linux and Apple systems.
 
 *Warning: development in progress*
 
@@ -18,7 +18,6 @@ Dependencies
 
 + SDL2
 + SDL2_image
-+ SDL2_ttf
 
 #### Build
 
