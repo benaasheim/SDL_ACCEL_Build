@@ -2,9 +2,10 @@ cmake_minimum_required(VERSION 2.8)
 project(ray_tracer)
 
 
-if( src )        
-    message("${MY_VARIABLE}main.c")
-endif()
+if(${src} MATCHES "/")  
+        set(src "src/${src}")
+        message("src = ${src} ")
+endif(${src} matches "/")
 
 
 # use FindSDL2.cmake
