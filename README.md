@@ -31,12 +31,12 @@ Building
 
 First, ensure that you have installed all listed dependencies. They should be available from your distributions package manager.
 
-To build the project, create a `build/` directory, run CMake, and build with CMake
+To build the project, create a `build/` directory, run CMake, and build with CMake specifying a source directory: `src/` 
 
 ```sh
 $ mkdir build
 $ cd build/
-$ cmake ../
+$ cmake .. -Dsrc=src/
 $ cmake --build ./
 ```
 
