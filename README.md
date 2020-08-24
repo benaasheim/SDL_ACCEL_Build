@@ -31,7 +31,7 @@ Building
 
 First, ensure that you have installed all listed dependencies. They should be available from your distributions package manager.
 
-To build the project, create a `build/` directory, run CMake, and build with CMake specifying a source directory: `src/` 
+To build the project, create a `build/` directory, run CMake, and build with CMake specifying a source directory: `-Dsrc` 
 
 ```sh
 $ mkdir build
