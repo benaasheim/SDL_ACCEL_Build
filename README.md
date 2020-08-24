@@ -40,11 +40,6 @@ $ cmake .. -Dsrc=src/
 $ cmake --build ./
 ```
 
-Installation
-------------
-
-You should *not* be installing this yet
-
 License
 -------
 
