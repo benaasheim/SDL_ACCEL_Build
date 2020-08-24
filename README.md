@@ -8,8 +8,11 @@ A real-time raytracer for Linux and Apple systems.
 Usage
 -----
 
-*usage instructions will be provided once there is something to use*
+To run the project:
 
+```sh
+$ make && ./ray_tracer
+```
 
 Dependencies
 ------------
@@ -31,7 +34,7 @@ Building
 
 First, ensure that you have installed all listed dependencies. They should be available from your distributions package manager.
 
-To build the project, create a `build/` directory, run CMake, and build with CMake specifying a source directory: `-Dsrc=<src_dir_name` 
+To build the project, create a `build/` directory, run CMake, and build with CMake specifying a source directory: `-Dsrc=<src_dir_name>` 
 
 ```sh
 $ mkdir build
